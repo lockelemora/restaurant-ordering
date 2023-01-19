@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Mario's Diner</h1>
+            <h3 class="slogan">The best burgers and pizzas in town.</h3>
+        </header>
+        <main>
+            <div class="menu" id="menu">
+                <!-- Menu items here!! -->
+            </div>
+            <div class="order-view" id="order-view">
+                <!-- Ordered items here!! -->
+            </div>
+            <button class="confirm-btn" id="confirm-btn">Confirm order</button>
+        </main>
+        <div class="modal" id="modal">
+            <h2 class="modal-title">Enter card details</h2>
+            <form id="consent-form" class="card-details">
+                <input class="input-box" type="text" name="fullName" placeholder="Enter your full name" required/>
+                <input class="input-box" type="number" name="cardNumber" placeholder="Enter card number" required/>
+                <input class="input-box" type="number" name="ccv" placeholder="Enter CCV" required/>
+                <button type="submit" class="pay-btn">Pay</button>
+            </form>
+        </div>
+        <div class="confirmation-view" id="confirmation-view">
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

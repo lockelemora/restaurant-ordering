@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: 'smythe';
+} 
+
+/*Header */
+
+header {
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    height: 170px;
+    width: 600px;
+    color: white;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 0px;
+    padding: 45px 385px 18px 47px;     
+}
+
+.slogan {
+    margin: 0px;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    padding-left: 47px;
+}
+
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+.emoji {
+    font-size: 70px;
+}
+
+.add{
+    margin-left: auto;
+    padding: 10px;
+    border: solid black 3px;
+    border-radius: 50%;
+}
+
+.items-added{
+    display: flex;
+    justify-content: space-between
+}
+
+.total-price{
+    border-top: solid black 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.name-and-remove{
+    display: flex;
+}
+
+/*Buttons*/
+
+.remove-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #BBBBBB;
+    font-size: 12px;
+    background-color: white;
+    border: none;
+}
+
+.confirm-btn{
+    width: 100%;
+    background-color: #16DB99;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+}
+
+.pay-btn{
+    width: 450px;
+    height: 75px;
+    background-color: #16DB99;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/*Fonts */
+.item-name{
+    font-size: 28px;
+    color: black;
+}
+
+.item-price{
+    font-size: 20px;
+    color: black;    
+}
+
+.item-ingredients{
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.order-title{
+    font-size: 28px;
+    color: black;
+}
+
+
+.total-price-title{
+    font-size: 28px;
+    color: black;
+}
+
+.modal-title{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+/* Modal */
+
+.modal{
+    width: 525px;
+    height: 545px;
+    background: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: solid black 1px;
+    box-shadow: 0px 0px 10px 10px grey;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+    
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.input-box{
+    height: 50px;
+    border-radius: 3px;
+    border-color: lightgray;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.confirmation-message{
+    width: 600px;
+    background: #ECFDF5;
+    font-size: 32px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+.modal-inner-loading{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 250px;
+}
